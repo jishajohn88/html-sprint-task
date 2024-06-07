@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    text-align: center; 
+}
+img{
+    margin:70px;
+    width: 70%;
+    height:70%;
+    border-radius: 30%;
+    border:2px solid salmon;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+a{
+    font-size: 25px;
+    border:2px solid green;
+}
+ol,ul{
+    font-size: 20px;
+    color: crimson;
+    margin: auto;
+    text-align: left;
+    width:310px; 
+} 
+#places-to-visit,#fun-facts{
+    padding:20px;
+    width:300px;
+}
+.flex-container{
+    display: flex;
+    margin:auto;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+footer{
+    text-align:left;
+}
+#specific-places{
+    margin:auto;
+    width:500px;
+    padding: 20px;
+    text-align: center;
+}
